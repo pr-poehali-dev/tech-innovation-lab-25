@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Алексей Смирнов",
+    role: "Senior Backend Developer, Skytech",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Nova AI экономит мне 3–4 часа в день. Пишет боilerplate-код, объясняет ошибки и предлагает оптимизации — как умный коллега рядом.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Мария Волкова",
+    role: "Основатель стартапа, IdeaForge",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Использую Nova AI для генерации патентных концепций. За месяц проработали 12 идей — 3 уже на стадии прототипа. Невероятный инструмент.",
+  },
+  {
+    name: "Ли Сяомин",
+    role: "Студент MIT, направление Computer Science",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Объясняет сложные алгоритмы лучше любого учебника. Готовлюсь к экзаменам с Nova AI — понимание приходит в разы быстрее.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят пользователи</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Разработчики, предприниматели и студенты уже работают умнее с Nova AI
           </p>
         </div>
 
