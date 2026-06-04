@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Chat with Nova AI",
+      "method": "POST",
+      "path": "/",
+      "body": {"messages": [{"role": "user", "content": "Привет! Кто ты?"}]},
+      "expectedStatus": 200,
+      "expectedBody": {"reply": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

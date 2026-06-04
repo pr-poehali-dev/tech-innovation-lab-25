@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS t_p19941116_tech_innovation_lab_.registrations (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  created_at TIMESTAMP DEFAULT NOW()
+);

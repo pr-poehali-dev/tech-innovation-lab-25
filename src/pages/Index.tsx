@@ -9,6 +9,8 @@ import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { AIChatSection } from "@/components/ai-chat-section"
+import { RegisterSection } from "@/components/register-section"
 
 export default function Index() {
   return (
@@ -16,6 +18,7 @@ export default function Index() {
       <Navbar />
       <main>
         <Hero3D />
+        <AIChatSection />
         <FeaturesSection />
         <section id="technology">
           <TechnologySection />
@@ -29,6 +32,7 @@ export default function Index() {
         <section id="faq">
           <FAQSection />
         </section>
+        <RegisterSection />
         <CTASection />
       </main>
       <Footer />

@@ -20,13 +20,13 @@ export function Navbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <a
-                href="#features"
+                href="#chat"
                 className="font-geist text-white hover:text-red-500 transition-colors duration-200"
               >
-                Возможности
+                Чат
               </a>
-              <a href="#applications" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
-                Применение
+              <a href="#features" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
+                Возможности
               </a>
               <a href="#faq" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
                 Вопросы
@@ -36,7 +36,12 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Попробовать бесплатно</Button>
+            <Button
+              className="bg-red-500 hover:bg-red-600 text-white font-geist border-0"
+              onClick={() => document.getElementById("register")?.scrollIntoView({ behavior: "smooth" })}
+            >
+              Попробовать бесплатно
+            </Button>
           </div>
 
           {/* Mobile menu button */}
